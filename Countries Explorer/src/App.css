@@ -1,0 +1,73 @@
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(134, 184, 224);
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 4px solid  white;
+  border-radius: 18px;
+  background-color: rgb(134, 184, 224);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(50, 124, 190);
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  flex: 1;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: rgb(251, 254, 254);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 250px;
+  margin: auto;
+  box-shadow: 0 5px 10px rgba(9, 83, 102, 0.2);
+}
+
+.card img {
+  height: 120px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+/* ❤️ Favorite */
+.fav {
+  margin-top: 10px;
+  background: #eceaea;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.fav.active {
+  background: rgb(89, 178, 226);
+  color: white;
+}
